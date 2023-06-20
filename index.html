@@ -1,0 +1,2558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmyshow</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responcive.css">
+    <!-- light-slider.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css" />
+    <!-- jquary -->
+    <script src="./jquary.js"></script>
+    <!-- lightslider.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <!-- fontawesome cdn code -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <nav class="fnav">
+        <div class="left">
+            <img src="./assets/logo.jpg" alt="" /><span><i id="icon" class="fa-solid fa-magnifying-glass"></i><input
+                    type="text" placeholder="search for movies,Events,plays,Sports,Activities" />
+            </span>
+        </div>
+        <div class="right">
+            <p>Location</p>
+            <button>Sign In</button>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <p id="word">New</p>
+    <nav class="sec-nav">
+        <div class="s-left">
+            <p>Movies</p>
+            <p>Stream</p>
+            <p>Events</p>
+            <p>Plays</p>
+            <p>Sports</p>
+            <p>Activities</p>
+            <p>Buzz</p>
+        </div>
+
+        <div class="s-right">
+            <p>List your Show</p>
+            <p>Corporates</p>
+            <p>Offers</p>
+            <p>Gift Cards</p>
+        </div>
+    </nav>
+
+    <!-- image slider start -->
+
+    <div class="slider">
+        <div class="slides">
+            <!-- radio button starts -->
+            <input type="radio" name="radio-btn" id="radio1" />
+            <input type="radio" name="radio-btn" id="radio2" />
+            <input type="radio" name="radio-btn" id="radio3" />
+            <input type="radio" name="radio-btn" id="radio4" />
+            <!-- radio button ends -->
+            <!-- slide images starts -->
+            <div class="slide first">
+                <img src="./assets/imadeslider1.jpg" alt="" />
+            </div>
+
+            <div class="slide">
+                <img src="./assets/imageslider2.jpg" alt="" />
+            </div>
+            <div class="slide">
+                <img src="./assets/imageslider3.jpg" alt="" />
+            </div>
+            <div class="slide">
+                <img src="./assets/imageslider4.jpg" alt="" />
+            </div>
+            <!-- slides images ends -->
+            <!-- automatic navigation start -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+            <!-- automatic navigation end -->
+        </div>
+        <!-- manual navigation start -->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+        <!-- manual navigation end -->
+    </div>
+    <h1 class="rheader">Recommended Movies</h1>
+
+    <!-- image slider end -->
+    <section class="slider1">
+        <!-- recommended movies section starts -->
+        <ul id="autoWidth" class="cs-hidden">
+            <!--1--------------------------- -->
+            <li class="item-a">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/movie1.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--2--------------------------- -->
+            <li class="item-b">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/trans.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">TRANSFORMERS:RISE OF THE BEAST</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">ACTION/ADVENTURE/Sci-Fi
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <!--3--------------------------- -->
+            <li class="item-c">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/takkar.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--4--------------------------- -->
+            <li class="item-d">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/spiderman.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--5--------------------------- -->
+            <li class="item-e">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/pc2.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--6--------------------------- -->
+            <li class="item-f">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/goodnight.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--7--------------------------- -->
+            <li class="item-g">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/ps-2.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--8--------------------------- -->
+            <li class="item-h">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/veeran.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--9--------------------------- -->
+            <li class="item-i">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/vickyc.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--10--------------------------- -->
+            <li class="item-j">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/kadharbasha.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <!-- recommended movies section ends -->
+
+    <!-- content2  starts-->
+    <section>
+        <div class="content2">
+            <img src="./assets/mainimage2.jpg">
+        </div>
+    </section>
+    <h1 class="rheader2">Best Of Live Events</h1>
+    <!-- content2  ends-->
+
+    <!-- best of events starts -->
+
+    <section class="slider2">
+
+        <ul id="autoWidth2" class="cs-hidden2">
+            <!--1--------------------------- -->
+            <li class="item-a">
+                <!-- box-slider -->
+                <div class="box2">
+                    <!-- img-box -->
+                    <div class="slide2-img">
+                        <img src="./assets/best1.jpg" alt="R1">
+                    </div>
+
+                </div>
+            </li>
+            <!--2--------------------------- -->
+            <li class="item-b">
+                <!-- box-slider -->
+                <div class="box2">
+                    <!-- img-box -->
+                    <div class="slide2-img">
+                        <img src="./assets/best2.jpg" alt="R1">
+                    </div>
+
+                </div>
+            </li>
+            <!--1--------------------------- -->
+            <li class="item-c">
+                <!-- box-slider -->
+                <div class="box2">
+                    <!-- img-box -->
+                    <div class="slide2-img">
+                        <img src="./assets/best3.jpg" alt="R1">
+                    </div>
+
+                </div>
+            </li>
+            <!--1--------------------------- -->
+            <li class="item-d">
+                <!-- box-slider -->
+                <div class="box2">
+                    <!-- img-box -->
+                    <div class="slide2-img">
+                        <img src="./assets/best4.jpg" alt="R1">
+                    </div>
+
+                </div>
+            </li>
+            <!--1--------------------------- -->
+            <li class="item-e">
+                <!-- box-slider -->
+                <div class="box2">
+                    <!-- img-box -->
+                    <div class="slide2-img">
+                        <img src="./assets/best5.jpg" alt="R1">
+                    </div>
+
+                </div>
+            </li>
+            <!--1--------------------------- -->
+            <li class="item-f">
+                <!-- box-slider -->
+                <div class="box2">
+                    <!-- img-box -->
+                    <div class="slide2-img">
+                        <img src="./assets/best6.jpg" alt="R1">
+                    </div>
+
+                </div>
+            </li>
+            <!--1--------------------------- -->
+            <li class="item-g">
+                <!-- box-slider -->
+                <div class="box2">
+                    <!-- img-box -->
+                    <div class="slide2-img">
+                        <img src="./assets/best7.jpg" alt="R1">
+                    </div>
+
+                </div>
+            </li>
+            <!--1--------------------------- -->
+            <li class="item-h">
+                <!-- box-slider -->
+                <div class="box2">
+                    <!-- img-box -->
+                    <div class="slide2-img">
+                        <img src="./assets/best8.jpg" alt="R1">
+                    </div>
+
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <!-- best of events ends -->
+
+
+    <!-- premiere section starts -->
+
+    <div id="sliderbackg">
+        <div class="cont3head">
+            <i class="fa-solid fa-play"></i>
+            <h1 class="head3">PREMIERE</h1>
+            <p class="para3">watch movies at home,every friday</p>
+        </div>
+        <div class="cont3head4">
+            <h1 class="head4">Premiers</h1>
+            <p class="para4">Brand new releases ,every friday</p>
+        </div>
+        <section class="slider3">
+
+            <ul id="autoWidth3" class="cs-hidden3">
+                <!--11--------------------------- -->
+                <li class="item-a">
+                    <!-- box-slider -->
+                    <div class="box3">
+                        <!-- img-box -->
+                        <div class="slide-img">
+                            <img src="./assets/premiere1.jpg" alt="R1">
+                        </div>
+                        <!-- detail-box -->
+                        <div class="detail3-box">
+                            <!-- movie type -->
+                            <div class="type3">
+                                <a href="">Everything Everywhere All At once</a>
+                            </div>
+                            <!-- .Genre -->
+                            <a href="" class="genre3">English</a>
+                        </div>
+                    </div>
+                </li>
+                <!--12--------------------------- -->
+                <li class="item-b">
+                    <!-- box-slider -->
+                    <div class="box3">
+                        <!-- img-box -->
+                        <div class="slide-img">
+                            <img src="./assets/premiere2.jpg" alt="R1">
+                        </div>
+                        <!-- detail-box -->
+                        <div class="detail3-box">
+                            <!-- movie type -->
+                            <div class="type3">
+                                <a href="">Polite Socity</a>
+                            </div>
+                            <!-- .Genre -->
+                            <a href="" class="genre3">English</a>
+                        </div>
+                    </div>
+                </li>
+                <!--13--------------------------- -->
+                <li class="item-c">
+                    <!-- box-slider -->
+                    <div class="box3">
+                        <!-- img-box -->
+                        <div class="slide-img">
+                            <img src="./assets/premiere3.jpg" alt="R1">
+                        </div>
+                        <!-- detail-box -->
+                        <div class="detail3-box">
+                            <!-- movie type -->
+                            <div class="type3">
+                                <a href="">Mars One</a>
+                            </div>
+                            <!-- .Genre -->
+                            <a href="" class="genre3">English</a>
+                        </div>
+                    </div>
+                </li>
+                <!--14--------------------------- -->
+                <li class="item-d">
+                    <!-- box-slider -->
+                    <div class="box3">
+                        <!-- img-box -->
+                        <div class="slide-img">
+                            <img src="./assets/premiere4.jpg" alt="R1">
+                        </div>
+                        <!-- detail-box -->
+                        <div class="detail3-box">
+                            <!-- movie type -->
+                            <div class="type3">
+                                <a href="">The Honeymoon</a>
+                            </div>
+                            <!-- .Genre -->
+                            <a href="" class="genre3">English</a>
+                        </div>
+                    </div>
+                </li>
+                <!--15--------------------------- -->
+                <li class="item-e">
+                    <!-- box-slider -->
+                    <div class="box3">
+                        <!-- img-box -->
+                        <div class="slide-img">
+                            <img src="./assets/premiere5.jpg" alt="R1">
+                        </div>
+                        <!-- detail-box -->
+                        <div class="detail3-box">
+                            <!-- movie type -->
+                            <div class="type3">
+                                <a href="">Over Water S1</a>
+                            </div>
+                            <!-- .Genre -->
+                            <a href="" class="genre3">Dutch</a>
+                        </div>
+                    </div>
+                </li>
+                <!--16--------------------------- -->
+                <li class="item-f">
+                    <!-- box-slider -->
+                    <div class="box3">
+                        <!-- img-box -->
+                        <div class="slide-img">
+                            <img src="./assets/premiere6jpg.avif" alt="R1">
+                        </div>
+                        <!-- detail-box -->
+                        <div class="detail3-box">
+                            <!-- movie type -->
+                            <div class="type3">
+                                <a href="">Taz:Quest for Burger</a>
+                            </div>
+                            <!-- .Genre -->
+                            <a href="" class="genre3">English</a>
+                        </div>
+                    </div>
+                </li>
+                <!--17--------------------------- -->
+                <li class="item-g">
+                    <!-- box-slider -->
+                    <div class="box3">
+                        <!-- img-box -->
+                        <div class="slide-img">
+                            <img src="./assets/premiere7.jpg" alt="R1">
+                        </div>
+                        <!-- detail-box -->
+                        <div class="detail3-box">
+                            <!-- movie type -->
+                            <div class="type3">
+                                <a href="">The Man From Tronoto</a>
+                            </div>
+                            <!-- .Genre -->
+                            <a href="" class="genre3">English</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <!--premiere section ends -->
+
+    <!-- events near you section starts -->
+    <h1 class="rheader">Events Hapeening Near You</h1>
+    <section class="slider1">
+        <ul id="autoWidth4" class="cs-hidden4">
+            <!--1--------------------------- -->
+            <li class="item-a">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/events1.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--2--------------------------- -->
+            <li class="item-b">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/events2.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--3--------------------------- -->
+            <li class="item-c">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/events3.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--4--------------------------- -->
+            <li class="item-d">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/events4.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--5--------------------------- -->
+            <li class="item-e">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/popular10.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--6--------------------------- -->
+            <li class="item-f">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/events1.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--7--------------------------- -->
+            <li class="item-g">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/events7.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--8--------------------------- -->
+            <li class="item-h">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/events8.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--9--------------------------- -->
+            <li class="item-i">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/events9.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+            <!--10--------------------------- -->
+            <li class="item-j">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/events6.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Por Thozhil</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">Crime/Thriller</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <!-- events near you section ends -->
+
+    <!-- online stream section starts -->
+    <h1 class="rheader">Online Stream Events</h1>
+    <section class="slider1">
+        <ul id="autoWidth5" class="cs-hidden5">
+            <!--1--------------------------- -->
+            <li class="item-a">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/online1.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--2--------------------------- -->
+            <li class="item-b">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/online7.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--3--------------------------- -->
+            <li class="item-c">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/online3.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--4--------------------------- -->
+            <li class="item-d">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/online4.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--5--------------------------- -->
+            <li class="item-e">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/online5.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--6--------------------------- -->
+            <li class="item-f">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/online10.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--7--------------------------- -->
+            <li class="item-g">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/online7.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--8--------------------------- -->
+            <li class="item-h">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/online8.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--9--------------------------- -->
+            <li class="item-i">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/online9.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--10--------------------------- -->
+            <li class="item-j">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/online10.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <!-- online steream section ends -->
+
+    <!--OutDoor section starts -->
+    <h1 class="rheader">OutDoor Events</h1>
+    <section class="slider1">
+        <ul id="autoWidth6" class="cs-hidden6">
+            <!--1--------------------------- -->
+            <li class="item-a">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/outdorr1.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--2--------------------------- -->
+            <li class="item-b">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/outdorr2.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--3--------------------------- -->
+            <li class="item-c">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/outdorr7.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--4--------------------------- -->
+            <li class="item-d">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/outdorr4.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--5--------------------------- -->
+            <li class="item-e">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/outdorr5.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--6--------------------------- -->
+            <li class="item-f">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/outdorr2.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--7--------------------------- -->
+            <li class="item-g">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/outdorr7.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--8--------------------------- -->
+            <li class="item-h">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/outdorr8.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--9--------------------------- -->
+            <li class="item-i">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/outdorr9.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--10--------------------------- -->
+            <li class="item-j">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/events9.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <!-- oudoor section ends -->
+
+    <!--Laughter theraphy section starts -->
+    <h1 class="rheader">Laughter Theraphy</h1>
+    <section class="slider1">
+        <ul id="autoWidth7" class="cs-hidden7">
+            <!--1--------------------------- -->
+            <li class="item-a">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/laugh1.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--2--------------------------- -->
+            <li class="item-b">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/laugh2.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--3--------------------------- -->
+            <li class="item-c">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/laugh9.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--4--------------------------- -->
+            <li class="item-d">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/laugh4.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--5--------------------------- -->
+            <li class="item-e">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/laugh5.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--6--------------------------- -->
+            <li class="item-f">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/laugh6.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--7--------------------------- -->
+            <li class="item-g">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/laugh7.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--8--------------------------- -->
+            <li class="item-h">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/laugh4.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--9--------------------------- -->
+            <li class="item-i">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/laugh9.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--10--------------------------- -->
+            <li class="item-j">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/laugh10.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <!--Laughter theraphy section ends -->
+
+    <!--Popular events section starts -->
+    <h1 class="rheader">Popular Events</h1>
+    <section class="slider1">
+        <ul id="autoWidth8" class="cs-hidden8">
+            <!--1--------------------------- -->
+            <li class="item-a">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/popular1.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--2--------------------------- -->
+            <li class="item-b">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/popular2.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--3--------------------------- -->
+            <li class="item-c">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/popular3.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--4--------------------------- -->
+            <li class="item-d">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/popular4.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--5--------------------------- -->
+            <li class="item-e">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/popular2.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--6--------------------------- -->
+            <li class="item-f">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/outdorr2.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--7--------------------------- -->
+            <li class="item-g">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/popular7.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--8--------------------------- -->
+            <li class="item-h">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/popular8.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--9--------------------------- -->
+            <li class="item-i">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/popular4.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--10--------------------------- -->
+            <li class="item-j">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/popular10.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <!--Popular events section ends -->
+
+    <!--Latest Plays section starts -->
+    <h1 class="rheader">Popular Events</h1>
+    <section class="slider1">
+        <ul id="autoWidth9" class="cs-hidden9">
+            <!--1--------------------------- -->
+            <li class="item-a">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/latest1.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--2--------------------------- -->
+            <li class="item-b">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/latest2.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--3--------------------------- -->
+            <li class="item-c">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/latest8.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--4--------------------------- -->
+            <li class="item-d">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/latest4.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--5--------------------------- -->
+            <li class="item-e">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/latest5.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--6--------------------------- -->
+            <li class="item-f">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/latest6.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--7--------------------------- -->
+            <li class="item-g">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/latest7.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--8--------------------------- -->
+            <li class="item-h">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/latest8.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--9--------------------------- -->
+            <li class="item-i">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/latest5.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--10--------------------------- -->
+            <li class="item-j">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/latest10.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <!--Latest Plays section ends -->
+
+    <!--Games section starts -->
+    <h1 class="rheader">Top Games & Sports </h1>
+    <section class="slider1">
+        <ul id="autoWidth10" class="cs-hidden10">
+            <!--1--------------------------- -->
+            <li class="item-a">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/game1.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--2--------------------------- -->
+            <li class="item-b">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/game8.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--3--------------------------- -->
+            <li class="item-c">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/game3.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--4--------------------------- -->
+            <li class="item-d">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/game4.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--5--------------------------- -->
+            <li class="item-e">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/game5.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--6--------------------------- -->
+            <li class="item-f">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/game3.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--7--------------------------- -->
+            <li class="item-g">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/game7.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--8--------------------------- -->
+            <li class="item-h">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/game8.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--9--------------------------- -->
+            <li class="item-i">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/game9.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--10--------------------------- -->
+            <li class="item-j">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/game10.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <!--Games section ends -->
+
+    <!-- trending searches starts -->
+    <h1 class="rheader">Trending Searches Right Now </h1>
+
+    <section class="trending">
+        <div class="trendbox1">
+            <div class="search-box">
+                <a href="" class="trendmovie">Adipurush</a>
+                <a href="" class="typesearch">Movies</a>
+            </div>
+        </div>
+        <div class="trendbox2">
+            <div class="search-box">
+                <a href="" class="trendmovie">Por Thozhil</a>
+                <a href="" class="typesearch">Movies</a>
+            </div>
+        </div>
+        <div class="trendbox2">
+            <div class="search-box">
+                <a href="" class="trendmovie">Oppenheimer</a>
+                <a href="" class="typesearch">Movies</a>
+            </div>
+        </div>
+        <div class="trendbox2">
+            <div class="search-box">
+                <a href="" class="trendmovie">The Flash</a>
+                <a href="" class="typesearch">Movies</a>
+            </div>
+        </div>
+        <div class="trendbox2">
+            <div class="search-box">
+                <a href="" class="trendmovie">Rambo Circus</a>
+                <a href="" class="typesearch">Events</a>
+            </div>
+        </div>
+        <div class="trendbox2">
+            <div class="search-box">
+                <a href="" class="trendmovie">Maamannan</a>
+                <a href="" class="typesearch">Movies</a>
+            </div>
+        </div>
+        <div class="trendbox7">
+            <div class="search-box">
+                <a href="" class="trendmovie">Spiderman:Across The Spider Verse</a>
+                <a href="" class="typesearch">Movies</a>
+            </div>
+        </div>
+        <div class="trendbox8">
+            <div class="search-box">
+                <a href="" class="trendmovie">MARAKKUMA NENJAM AR Rahuman Live Concert in Chennai</a>
+                <a href="" class="typesearch">Events</a>
+            </div>
+        </div>
+        <div class="trendbox9">
+            <div class="search-box">
+                <a href="" class="trendmovie">2018(Malayalam)</a>
+                <a href="" class="typesearch">Movies</a>
+            </div>
+        </div>
+        <div class="trendbox10">
+            <div class="search-box">
+                <a href="" class="trendmovie">TransFormers:Rise Of The Beast </a>
+                <a href="" class="typesearch">Movies</a>
+            </div>
+        </div>
+    </section>
+    <!-- trending searches ends -->
+
+    <!--Explore section starts -->
+    <h1 class="rheader">Explore Fun Activities </h1>
+    <section class="slider1">
+        <ul id="autoWidth11" class="cs-hidden11">
+            <!--1--------------------------- -->
+            <li class="item-a">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/Explore1.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--2--------------------------- -->
+            <li class="item-b">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/Explore6.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--3--------------------------- -->
+            <li class="item-c">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/Explore3.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--4--------------------------- -->
+            <li class="item-d">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/Explore4.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--5--------------------------- -->
+            <li class="item-e">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/Explore5.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--6--------------------------- -->
+            <li class="item-f">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/Explore6.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--7--------------------------- -->
+            <li class="item-g">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/Explore1.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--8--------------------------- -->
+            <li class="item-h">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/Explore8.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--9--------------------------- -->
+            <li class="item-i">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/Explore9.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+            <!--10--------------------------- -->
+            <li class="item-j">
+                <!-- box-slider -->
+                <div class="box">
+                    <!-- img-box -->
+                    <div class="slide-img">
+                        <img src="./assets/Explore10.jpg" alt="R1">
+                    </div>
+                    <!-- detail-box -->
+                    <div class="detail-box">
+                        <!-- movie type -->
+                        <div class="type">
+                            <a href="">Mic Testing Curated By Hysterical</a>
+                        </div>
+                        <!-- .Genre -->
+                        <a href="" class="genre">The Board,Anna Nagar Chennai 3.10KMS Away</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <!--Explore section ends -->
+
+    <!-- home content starts -->
+    <section class="home">
+        <a href="">HOME</a>
+    </section>
+    <!-- home content ends -->
+
+    <!-- footer content starts -->
+    <footer>
+        <div class="foot1">
+            <img src="./assets/hut.jpg" class="hut">
+            <h4 class="foothead1">List Your Shows</h4>
+            <p class="footpara1">Got A Show,Event,Activity or a great experience?Partner With Us & Get Listed on
+                Bookmyshow</p>
+            <a class="button">Contact Today</a>
+        </div>
+
+
+        <div class="foot2">
+            <div class="ficon1">
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <a href="" class="f2a1">24/7 CUSTOMER SERVICE</a>
+            <div class="ficon2">
+                <i class="fa-solid fa-ticket"></i>
+            </div>
+            <a href="" class="f2a2">RESEND BOOKING COINFORMATION</a>
+            <div class="ficon3">
+                <i class="fa-solid fa-newspaper"></i>
+            </div>
+            <a href="" class="f2a3">SUBSCRIBE TO THE NEWS LETTER</a>
+
+        </div>
+
+        <div class="foot3">
+            <div class="foot3head">Movies Now Showing in Chennai</div>
+            <div class="foot3cont">
+                <a href="" class="titlecont">Adipurush|</a>
+                <a href="" class="titlecont">Por Thozhil|</a>
+                <a href="" class="titlecont">The Flash|</a>
+                <a href="" class="titlecont">Bommai|</a>
+                <a href="" class="titlecont">Transformers: Rise of the Beasts|</a>
+                <a href="" class="titlecont">Takkar|</a>
+                <a href="" class="titlecont">Good Night|</a>
+                <a href="" class="titlecont">Veeran|</a>
+                <a href="" class="titlecont">Spider-Man: Across The Spider-Verse|</a>
+                <a href="" class="titlecont">Erumbhu|</a>
+            </div>
+            <div class="foot3head">Upcoming Movies in Chennai</div>
+            <div class="foot3cont2">
+                <a href="" class="titlecont">Amala|</a>
+                <a href="" class="titlecont">Iravan|</a>
+                <a href="" class="titlecont">Pendulum|</a>
+                <a href="" class="titlecont">Mahabali (2023)|</a>
+                <a href="" class="titlecont">Datta|</a>
+                <a href="" class="titlecont">Madhura Manohara Moham|</a>
+                <a href="" class="titlecont">Bera|</a>
+                <a href="" class="titlecont">Flush|</a>
+                <a href="" class="titlecont">Ramudu Anukoledu Janaki Kalaganaledu|</a>
+                <a href="" class="titlecont">Circus|</a>
+                <a href="" class="titlecont">Lily|</a>
+                <a href="" class="titlecont">Modala Male|</a>
+                <a href="" class="titlecont">The Three Musketeers DArtagnan|</a>
+                <a href="" class="titlecont">Aadharwad|</a>
+                <a href="" class="titlecont">Aggrasena|</a>
+                <a href="" class="titlecont">1920: Horrors of the Heart|</a>
+                <a href="" class="titlecont">Regina|</a>
+                <a href="" class="titlecont">No Hard Feelings|</a>
+                <a href="" class="titlecont">Maidaan|</a>
+                <a href="" class="titlecont">Regina|</a>
+            </div>
+            <div class="foot3head">Drama Movies</div>
+            <div class="foot3cont3">
+                <a href="" class="titlecont">Drama Movies|</a>
+                <a href="" class="titlecont">Action Movies|</a>
+                <a href="" class="titlecont">Adventure Movies|</a>
+                <a href="" class="titlecont">Thriller Movies|</a>
+                <a href="" class="titlecont">Comedy Movies|</a>
+                <a href="" class="titlecont">Romantic Movies|</a>
+                <a href="" class="titlecont">Crime Movies|</a>
+                <a href="" class="titlecont">Fantasy Movies|</a>
+                <a href="" class="titlecont">Animation Movies|</a>
+                <a href="" class="titlecont">Horror Movies|</a>
+                <a href="" class="titlecont">Musical Movies|</a>
+                <a href="" class="titlecont">Sci-Fi Movies|</a>
+                <a href="" class="titlecont">Adaptation Movies|</a>
+                <a href="" class="titlecont">Devotional Movies|</a>
+                <a href="" class="titlecont">Mythological Movies|</a>
+                <a href="" class="titlecont">Noir Movies|</a>
+                <a href="" class="titlecont">Political Movies|</a>
+                <a href="" class="titlecont">Supernatural Movies|</a>
+                <a href="" class="titlecont">Sports Movies|</a>
+                <a href="" class="titlecont">Heist Movies|</a>
+                <a href="" class="titlecont">Suspense Movies|</a>
+                <a href="" class="titlecont">Historical Movies|</a>
+                <a href="" class="titlecont">Tragedy Movies|</a>
+                <a href="" class="titlecont">Anime Movies|</a>
+                <a href="" class="titlecont">Psychological Movies|</a>
+                <a href="" class="titlecont">Mystery Movies|</a>
+                <a href="" class="titlecont">Biography Movies|</a>
+                <a href="" class="titlecont">War Movies|</a>
+                <a href="" class="titlecont">Period Movies|</a>
+                <a href="" class="titlecont">Classic Movies|</a>
+                <a href="" class="titlecont">Bollywood Movies|</a>
+                <a href="" class="titlecont">Adult Movies|</a>
+                <a href="" class="titlecont">Screening Movies|</a>
+            </div>
+            <div class="foot3head">Movies By Language</div>
+            <div class="foot3cont2">
+                <a href="" class="titlecont">Movies in Tamil|</a>
+                <a href="" class="titlecont">Movies in English|</a>
+                <a href="" class="titlecont">Movies in Hindi|</a>
+                <a href="" class="titlecont">Movies in Telugu|</a>
+                <a href="" class="titlecont">Movies in Malayalam|</a>
+                <a href="" class="titlecont">Movies in Kannada|</a>
+                <a href="" class="titlecont">Movies in Chattisgarhi|</a>
+                <a href="" class="titlecont">Movies in Khasi|</a>
+                <a href="" class="titlecont">Movies in English 7D|</a>
+                <a href="" class="titlecont">Movies in Nepali|</a>
+                <a href="" class="titlecont">Movies in Portuguese|</a>
+                <a href="" class="titlecont">Movies in French|</a>
+                <a href="" class="titlecont">Movies in Bhojpuri|</a>
+                <a href="" class="titlecont">Movies in Tulu|</a>
+                <a href="" class="titlecont">Movies in Rajasthani|</a>
+                <a href="" class="titlecont">Movies in Assamese|</a>
+                <a href="" class="titlecont">Movies in Haryanavi|</a>
+                <a href="" class="titlecont">Movies in Japanese|</a>
+                <a href="" class="titlecont">Movies in Sindhi|</a>
+                <a href="" class="titlecont">Movies in Urdu|</a>
+                <a href="" class="titlecont">Movies in Punjabi|</a>
+                <a href="" class="titlecont">Movies in Marathi|</a>
+                <a href="" class="titlecont">Movies in Konkani|</a>
+
+            </div>
+            <div class="foot3head">Plays By Genre in Chennai</div>
+            <div class="foot3cont3">
+                <a href="" class="titlecont">Drama Plays|</a>
+                <a href="" class="titlecont">Comedy Plays|</a>
+                <a href="" class="titlecont">Adaptation Plays|</a>
+                <a href="" class="titlecont">Adult Plays|</a>
+                <a href="" class="titlecont">Action Plays|</a>
+                <a href="" class="titlecont">Mythological Plays|</a>
+                <a href="" class="titlecont">Noir Plays|</a>
+                <a href="" class="titlecont">Online Streaming Plays Plays|</a>
+                <a href="" class="titlecont">Political Plays|</a>
+                <a href="" class="titlecont">Tribute Plays|</a>
+                <a href="" class="titlecont">Suspense Plays|</a>
+                <a href="" class="titlecont">Historical Plays|</a>
+                <a href="" class="titlecont">Thriller Plays|</a>
+                <a href="" class="titlecont">Tragedy Plays|</a>
+                <a href="" class="titlecont">Horror Plays|</a>
+                <a href="" class="titlecont">Psychological Plays|</a>
+                <a href="" class="titlecont">Mystery Plays|</a>
+                <a href="" class="titlecont">Romantic Plays|</a>
+                <a href="" class="titlecont">Broadway Plays|</a>
+                <a href="" class="titlecont">Biography Plays|</a>
+                <a href="" class="titlecont">War Plays|</a>
+                <a href="" class="titlecont">Period Plays|</a>
+
+            </div>
+            <div class="foot3head">Things to do in Chennai</div>
+            <div class="foot3cont2">
+                <a href="" class="titlecont">Adventure|</a>
+                <a href="" class="titlecont">Amusement Parks|</a>
+                <a href="" class="titlecont">Festivals|</a>
+                <a href="" class="titlecont">Durga Puja Festival|</a>
+                <a href="" class="titlecont">Food and Drinks|</a>
+                <a href="" class="titlecont">Holi Parties|</a>
+                <a href="" class="titlecont">Antiques, Heritage, Museums|</a>
+                <a href="" class="titlecont">Christmas Celebrations|</a>
+                <a href="" class="titlecont">Hilsa Festival|</a>
+                <a href="" class="titlecont">Hospitals|</a>
+            </div>
+            <div class="foot3head">Sports Events in Chennai</div>
+            <div class="foot3cont3">
+                <a href="" class="titlecont">Online Games|</a>
+                <a href="" class="titlecont">Athletics|</a>
+                <a href="" class="titlecont">E Sports|</a>
+                <a href="" class="titlecont">Chess|</a>
+                <a href="" class="titlecont">Archery|</a>
+                <a href="" class="titlecont">Baseball|</a>
+                <a href="" class="titlecont">Badminton|</a>
+                <a href="" class="titlecont">Cycling|</a>
+                <a href="" class="titlecont">Golf|</a>
+                <a href="" class="titlecont">Kickboxing|</a>
+                <a href="" class="titlecont">Boat Race|</a>
+                <a href="" class="titlecont">Boxing|</a>
+                <a href="" class="titlecont">Card Games|</a>
+                <a href="" class="titlecont">Cricket|</a>
+                <a href="" class="titlecont">Derby Horse Race|</a>
+                <a href="" class="titlecont">Football|</a>
+                <a href="" class="titlecont">Kabaddi|</a>
+                <a href="" class="titlecont">Mixed Martial Arts|</a>
+                <a href="" class="titlecont">Muay Thai|</a>
+                <a href="" class="titlecont">Swimming|</a>
+                <a href="" class="titlecont">Pool|</a>
+                <a href="" class="titlecont">Rugby|</a>
+                <a href="" class="titlecont">Hockey|</a>
+                <a href="" class="titlecont">Ice Skating|</a>
+                <a href="" class="titlecont">Judo|</a>
+                <a href="" class="titlecont">Triathlon|</a>
+                <a href="" class="titlecont">Walking|</a>
+                <a href="" class="titlecont">Shooting|</a>
+                <a href="" class="titlecont">Running|</a>
+                <a href="" class="titlecont">Tennis|</a>
+                <a href="" class="titlecont">Snooker|</a>
+            </div>
+            <div class="foot3head">Events in Chennai</div>
+            <div class="foot3cont3">
+                <a href="" class="titlecont">Comedy Shows|</a>
+                <a href="" class="titlecont">Workshops|</a>
+                <a href="" class="titlecont">Music Shows|</a>
+                <a href="" class="titlecont">Spirituality|</a>
+                <a href="" class="titlecont">Kids|</a>
+                <a href="" class="titlecont">Meetups|</a>
+                <a href="" class="titlecont">Conferences|</a>
+                <a href="" class="titlecont">Beer Festival|</a>
+                <a href="" class="titlecont">Exhibitions|</a>
+                <a href="" class="titlecont">Celebrity Wishes|</a>
+                <a href="" class="titlecont">Award shows|</a>
+                <a href="" class="titlecont">Online Streaming Events|</a>
+                <a href="" class="titlecont">Screening|</a>
+                <a href="" class="titlecont">Vaccination|</a>
+                <a href="" class="titlecont">Talks|</a>
+                <a href="" class="titlecont">New Year Parties|</a>
+
+            </div>
+            <div class="foot3head">Cinemas in Top Cities</div>
+            <div class="foot3cont2">
+                <a href="" class="titlecont">Cinemas in Mumbai|</a>
+                <a href="" class="titlecont">Cinemas in Delhi-NCR|</a>
+                <a href="" class="titlecont">Cinemas in Chennai|</a>
+                <a href="" class="titlecont">Cinemas in Bengaluru|</a>
+                <a href="" class="titlecont">Cinemas in Hyderabad|</a>
+                <a href="" class="titlecont">Cinemas in Pune|</a>
+                <a href="" class="titlecont">Cinemas in Ahmedabad|</a>
+                <a href="" class="titlecont">Cinemas in Kolkata|</a>
+                <a href="" class="titlecont">Cinemas in Kochi|</a>
+
+            </div>
+            <div class="foot3head">Events in Top Cities</div>
+            <div class="foot3cont2">
+                <a href="" class="titlecont">Events in Mumbai|</a>
+                <a href="" class="titlecont">Events in Delhi-NCR|</a>
+                <a href="" class="titlecont">Events in Chennai|</a>
+
+                <a href="" class="titlecont">Events in Bengaluru|</a>
+
+                <a href="" class="titlecont">Events in Hyderabad|</a>
+
+                <a href="" class="titlecont">Events in Pune|</a>
+
+                <a href="" class="titlecont">Events in Ahmedabad|</a>
+
+                <a href="" class="titlecont">Events in Kolkata|</a>
+
+                <a href="" class="titlecont">Events in Kochi|</a>
+
+
+
+            </div>
+            <div class="foot3head">Movies Now Showing in Chennai</div>
+            <div class="foot3cont">
+                <a href="" class="titlecont">Adipurush|</a>
+                <a href="" class="titlecont">Por Thozhil|</a>
+                <a href="" class="titlecont">The Flash|</a>
+                <a href="" class="titlecont">Bommai|</a>
+                <a href="" class="titlecont">Transformers: Rise of the Beasts|</a>
+                <a href="" class="titlecont">Takkar|</a>
+                <a href="" class="titlecont">Good Night|</a>
+                <a href="" class="titlecont">Veeran|</a>
+                <a href="" class="titlecont">Spider-Man: Across The Spider-Verse|</a>
+                <a href="" class="titlecont">Erumbhu|</a>
+            </div>
+            <div class="foot3head">Movies Now Showing in Chennai</div>
+            <div class="foot3cont">
+                <a href="" class="titlecont">Adipurush|</a>
+                <a href="" class="titlecont">Por Thozhil|</a>
+                <a href="" class="titlecont">The Flash|</a>
+                <a href="" class="titlecont">Bommai|</a>
+                <a href="" class="titlecont">Transformers: Rise of the Beasts|</a>
+                <a href="" class="titlecont">Takkar|</a>
+                <a href="" class="titlecont">Good Night|</a>
+                <a href="" class="titlecont">Veeran|</a>
+                <a href="" class="titlecont">Spider-Man: Across The Spider-Verse|</a>
+                <a href="" class="titlecont">Erumbhu|</a>
+            </div>
+            <div class="foot4">
+                <div class="line1">
+                    <img src="./assets/bookmyshow2.jpg">
+                </div>
+            </div>
+
+            <div class="foot5">
+                <div class="iconf"><i class="fa-brands fa-facebook"></i></div>
+                <div class="iconf"><i class="fa-brands fa-twitter"></i></div>
+                <div class="iconf"> <i class="fa-brands fa-instagram"></i></div>
+                <div class="iconf"><i class="fa-brands fa-youtube"></i></div>
+                <div class="iconf"><i class="fa-brands fa-pinterest"></i></div>
+                <div class="iconf"><i class="fa-brands fa-linkedin"></i></div>
+            </div>
+
+
+
+            <div class="foot6">
+                <P class="lastpara1">2023Copyright © Bigtree Entertainment Pvt. Ltd. All Rights Reserved.</P>
+                <p class="lastpara2">The content and images used on this site are copyright protected and copyrights vests with the respective owners. The usage of the content and images on this website is intended to promote the works and no endorsement of the artist shall be implied. Unauthorized use is prohibited </p>
+                <p class="lastpara3">and punishable by law.</p>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- footer content ends -->
+
+
+
+
+    <!-- custom script -->
+    <script src="./java.js"></script>
+</body>
+
+</html>
